@@ -1,0 +1,9 @@
+{
+  "name": "lowerthirds",
+  "version": "1.0.0",
+  "description": "LowerThirds",
+  "main": "index.js",
+  "repository": "https://github.com/jaymoulin/StreamElementsWidget_LowerThirds/",
+  "author": "Jay MOULIN",
+  "license": "MIT"
+}

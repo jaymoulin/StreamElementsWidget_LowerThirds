@@ -1,0 +1,1037 @@
+{
+  "thirdGroup1-0": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 1"
+  },
+  "thirdGroup1-1": {
+    "type": "hidden",
+    "label": "Notification 1",
+    "group": "Notification 1"
+  },
+  "thirdGroup1-2": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 1"
+  },
+  "logo1": {
+    "type": "image-input",
+    "label": "Logo",
+    "group": "Notification 1"
+  },
+  "topText1": {
+    "type": "text",
+    "label": "Top Text",
+    "group": "Notification 1"
+  },
+  "topTextFont1": {
+    "type": "googleFont",
+    "label": "Top Text Font",
+    "group": "Notification 1"
+  },
+  "topTextColor1": {
+    "type": "colorpicker",
+    "label": "Top Text Color",
+    "group": "Notification 1"
+  },
+  "lowerText1": {
+    "type": "text",
+    "label": "Lower Text",
+    "group": "Notification 1"
+  },
+  "lowerTextFont1": {
+    "type": "googleFont",
+    "label": "Lower Text Font",
+    "group": "Notification 1"
+  },
+  "lowerTextColor1": {
+    "type": "colorpicker",
+    "label": "Lower Text Color",
+    "group": "Notification 1"
+  },
+  "style1color1": {
+    "type": "colorpicker",
+    "label": "Style color 1",
+    "group": "Notification 1",
+    "value": "#D54141"
+  },
+  "style2color1": {
+    "type": "colorpicker",
+    "label": "Style color 2",
+    "group": "Notification 1",
+    "value": "#222222"
+  },
+  "style3color1": {
+    "type": "colorpicker",
+    "label": "Style color 3",
+    "group": "Notification 1",
+    "value": "#D54141"
+  },
+  "style4color1": {
+    "type": "colorpicker",
+    "label": "Style color 4",
+    "group": "Notification 1",
+    "value": "#222222"
+  },
+  "activeTime1": {
+    "type": "number",
+    "label": "Active time (in ms)",
+    "group": "Notification 1",
+    "value": 10000
+  },
+  "animationTime1": {
+    "type": "number",
+    "label": "Animation time (in ms)",
+    "group": "Notification 1",
+    "value": 2000
+  },
+  "waitingTime1": {
+    "type": "number",
+    "label": "Time before next (in ms)",
+    "group": "Notification 1",
+    "value": 60000
+  },
+  "style1": {
+    "type": "dropdown",
+    "label": "Style",
+    "group": "Notification 1",
+    "value": "style-1",
+    "options": {
+      "style-1": "Logo + text after with background",
+      "style-2": "Always logo + texts uses color styles",
+      "style-3": "Spin logo + texts with background",
+      "style-4": "Always logo + texts with color only"
+    }
+  },
+  "align1": {
+    "type": "dropdown",
+    "label": "Alignment",
+    "group": "Notification 1",
+    "value": "left",
+    "options": {
+      "left": "Left",
+      "right": "Right",
+      "center": "Center"
+    }
+  },
+  "thirdGroup2-0": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 2"
+  },
+  "thirdGroup2-1": {
+    "type": "hidden",
+    "label": "Notification 2",
+    "group": "Notification 2"
+  },
+  "thirdGroup2-2": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 2"
+  },
+  "logo2": {
+    "type": "image-input",
+    "label": "Logo",
+    "group": "Notification 2"
+  },
+  "topText2": {
+    "type": "text",
+    "label": "Top Text",
+    "group": "Notification 2"
+  },
+  "topTextColor2": {
+    "type": "colorpicker",
+    "label": "Top Text Color",
+    "group": "Notification 2"
+  },
+  "topTextFont2": {
+    "type": "googleFont",
+    "label": "Top Text Font",
+    "group": "Notification 2"
+  },
+  "lowerText2": {
+    "type": "text",
+    "label": "Lower Text",
+    "group": "Notification 2"
+  },
+  "lowerTextFont2": {
+    "type": "googleFont",
+    "label": "Lower Text Font",
+    "group": "Notification 2"
+  },
+  "lowerTextColor2": {
+    "type": "colorpicker",
+    "label": "Lower Text Color",
+    "group": "Notification 2"
+  },
+  "style1color2": {
+    "type": "colorpicker",
+    "label": "Style color 1",
+    "group": "Notification 2",
+    "value": "#D54141"
+  },
+  "style2color2": {
+    "type": "colorpicker",
+    "label": "Style color 2",
+    "group": "Notification 2",
+    "value": "#222222"
+  },
+  "style3color2": {
+    "type": "colorpicker",
+    "label": "Style color 3",
+    "group": "Notification 2",
+    "value": "#D54141"
+  },
+  "style4color2": {
+    "type": "colorpicker",
+    "label": "Style color 4",
+    "group": "Notification 2",
+    "value": "#222222"
+  },
+  "activeTime2": {
+    "type": "number",
+    "label": "Active time (in ms)",
+    "group": "Notification 2",
+    "value": 10000
+  },
+  "animationTime2": {
+    "type": "number",
+    "label": "Animation time (in ms)",
+    "group": "Notification 2",
+    "value": 2000
+  },
+  "waitingTime2": {
+    "type": "number",
+    "label": "Time before next (in ms)",
+    "group": "Notification 2",
+    "value": 60000
+  },
+  "style2": {
+    "type": "dropdown",
+    "label": "Style",
+    "group": "Notification 2",
+    "value": "style-1",
+    "options": {
+      "style-1": "Logo + text after with background",
+      "style-2": "Always logo + texts uses color styles",
+      "style-3": "Spin logo + texts with background",
+      "style-4": "Always logo + texts with color only"
+    }
+  },
+  "align2": {
+    "type": "dropdown",
+    "label": "Alignment",
+    "group": "Notification 2",
+    "value": "left",
+    "options": {
+      "left": "Left",
+      "right": "Right",
+      "center": "Center"
+    }
+  },
+  "thirdGroup3-0": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 3"
+  },
+  "thirdGroup3-1": {
+    "type": "hidden",
+    "label": "Notification 3",
+    "group": "Notification 3"
+  },
+  "thirdGroup3-2": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 3"
+  },
+  "logo3": {
+    "type": "image-input",
+    "label": "Logo",
+    "group": "Notification 3"
+  },
+  "topText3": {
+    "type": "text",
+    "label": "Top Text",
+    "group": "Notification 3"
+  },
+  "topTextFont3": {
+    "type": "googleFont",
+    "label": "Top Text Font",
+    "group": "Notification 3"
+  },
+  "topTextColor3": {
+    "type": "colorpicker",
+    "label": "Top Text Color",
+    "group": "Notification 3"
+  },
+  "lowerText3": {
+    "type": "text",
+    "label": "Lower Text",
+    "group": "Notification 3"
+  },
+  "lowerTextFont3": {
+    "type": "googleFont",
+    "label": "Lower Text Font",
+    "group": "Notification 3"
+  },
+  "lowerTextColor3": {
+    "type": "colorpicker",
+    "label": "Lower Text Color",
+    "group": "Notification 3"
+  },
+  "style1color3": {
+    "type": "colorpicker",
+    "label": "Style color 1",
+    "group": "Notification 3",
+    "value": "#D54141"
+  },
+  "style2color3": {
+    "type": "colorpicker",
+    "label": "Style color 2",
+    "group": "Notification 3",
+    "value": "#222222"
+  },
+  "style3color3": {
+    "type": "colorpicker",
+    "label": "Style color 3",
+    "group": "Notification 3",
+    "value": "#D54141"
+  },
+  "style4color3": {
+    "type": "colorpicker",
+    "label": "Style color 4",
+    "group": "Notification 3",
+    "value": "#222222"
+  },
+  "activeTime3": {
+    "type": "number",
+    "label": "Active time (in ms)",
+    "group": "Notification 3",
+    "value": 10000
+  },
+  "animationTime3": {
+    "type": "number",
+    "label": "Animation time (in ms)",
+    "group": "Notification 3",
+    "value": 2000
+  },
+  "waitingTime3": {
+    "type": "number",
+    "label": "Time before next (in ms)",
+    "group": "Notification 3",
+    "value": 60000
+  },
+  "style3": {
+    "type": "dropdown",
+    "label": "Style",
+    "group": "Notification 3",
+    "value": "style-1",
+    "options": {
+      "style-1": "Logo + text after with background",
+      "style-2": "Always logo + texts uses color styles",
+      "style-3": "Spin logo + texts with background",
+      "style-4": "Always logo + texts with color only"
+    }
+  },
+  "align3": {
+    "type": "dropdown",
+    "label": "Alignment",
+    "group": "Notification 3",
+    "value": "left",
+    "options": {
+      "left": "Left",
+      "right": "Right",
+      "center": "Center"
+    }
+  },
+  "thirdGroup4-0": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 4"
+  },
+  "thirdGroup4-1": {
+    "type": "hidden",
+    "label": "Notification 4",
+    "group": "Notification 4"
+  },
+  "thirdGroup4-2": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 4"
+  },
+  "logo4": {
+    "type": "image-input",
+    "label": "Logo",
+    "group": "Notification 4"
+  },
+  "topText4": {
+    "type": "text",
+    "label": "Top Text",
+    "group": "Notification 4"
+  },
+  "topTextFont4": {
+    "type": "googleFont",
+    "label": "Top Text Font",
+    "group": "Notification 4"
+  },
+  "topTextColor4": {
+    "type": "colorpicker",
+    "label": "Top Text Color",
+    "group": "Notification 4"
+  },
+  "lowerText4": {
+    "type": "text",
+    "label": "Lower Text",
+    "group": "Notification 4"
+  },
+  "lowerTextFont4": {
+    "type": "googleFont",
+    "label": "Lower Text Font",
+    "group": "Notification 4"
+  },
+  "lowerTextColor4": {
+    "type": "colorpicker",
+    "label": "Lower Text Color",
+    "group": "Notification 4"
+  },
+  "style1color4": {
+    "type": "colorpicker",
+    "label": "Style color 1",
+    "group": "Notification 4",
+    "value": "#D54141"
+  },
+  "style2color4": {
+    "type": "colorpicker",
+    "label": "Style color 2",
+    "group": "Notification 4",
+    "value": "#222222"
+  },
+  "style3color4": {
+    "type": "colorpicker",
+    "label": "Style color 3",
+    "group": "Notification 4",
+    "value": "#D54141"
+  },
+  "style4color4": {
+    "type": "colorpicker",
+    "label": "Style color 4",
+    "group": "Notification 4",
+    "value": "#222222"
+  },
+  "activeTime4": {
+    "type": "number",
+    "label": "Active time (in ms)",
+    "group": "Notification 4",
+    "value": 10000
+  },
+  "animationTime4": {
+    "type": "number",
+    "label": "Animation time (in ms)",
+    "group": "Notification 4",
+    "value": 2000
+  },
+  "waitingTime4": {
+    "type": "number",
+    "label": "Time before next (in ms)",
+    "group": "Notification 4",
+    "value": 60000
+  },
+  "style4": {
+    "type": "dropdown",
+    "label": "Style",
+    "group": "Notification 4",
+    "value": "style-1",
+    "options": {
+      "style-1": "Logo + text after with background",
+      "style-2": "Always logo + texts uses color styles",
+      "style-3": "Spin logo + texts with background",
+      "style-4": "Always logo + texts with color only"
+    }
+  },
+  "align4": {
+    "type": "dropdown",
+    "label": "Alignment",
+    "group": "Notification 4",
+    "value": "left",
+    "options": {
+      "left": "Left",
+      "right": "Right",
+      "center": "Center"
+    }
+  },
+  "thirdGroup5-0": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 5"
+  },
+  "thirdGroup5-1": {
+    "type": "hidden",
+    "label": "Notification 5",
+    "group": "Notification 5"
+  },
+  "thirdGroup5-2": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 5"
+  },
+  "logo5": {
+    "type": "image-input",
+    "label": "Logo",
+    "group": "Notification 5"
+  },
+  "topText5": {
+    "type": "text",
+    "label": "Top Text",
+    "group": "Notification 5"
+  },
+  "topTextFont5": {
+    "type": "googleFont",
+    "label": "Top Text Font",
+    "group": "Notification 5"
+  },
+  "topTextColor5": {
+    "type": "colorpicker",
+    "label": "Top Text Color",
+    "group": "Notification 5"
+  },
+  "lowerText5": {
+    "type": "text",
+    "label": "Lower Text",
+    "group": "Notification 5"
+  },
+  "lowerTextFont5": {
+    "type": "googleFont",
+    "label": "Lower Text Font",
+    "group": "Notification 5"
+  },
+  "lowerTextColor5": {
+    "type": "colorpicker",
+    "label": "Lower Text Color",
+    "group": "Notification 5"
+  },
+  "style1color5": {
+    "type": "colorpicker",
+    "label": "Style color 1",
+    "group": "Notification 5",
+    "value": "#D54141"
+  },
+  "style2color5": {
+    "type": "colorpicker",
+    "label": "Style color 2",
+    "group": "Notification 5",
+    "value": "#222222"
+  },
+  "style3color5": {
+    "type": "colorpicker",
+    "label": "Style color 3",
+    "group": "Notification 5",
+    "value": "#D54141"
+  },
+  "style4color5": {
+    "type": "colorpicker",
+    "label": "Style color 4",
+    "group": "Notification 5",
+    "value": "#222222"
+  },
+  "activeTime5": {
+    "type": "number",
+    "label": "Active time (in ms)",
+    "group": "Notification 5",
+    "value": 10000
+  },
+  "animationTime5": {
+    "type": "number",
+    "label": "Animation time (in ms)",
+    "group": "Notification 5",
+    "value": 2000
+  },
+  "waitingTime5": {
+    "type": "number",
+    "label": "Time before next (in ms)",
+    "group": "Notification 5",
+    "value": 60000
+  },
+  "style5": {
+    "type": "dropdown",
+    "label": "Style",
+    "group": "Notification 5",
+    "value": "style-1",
+    "options": {
+      "style-1": "Logo + text after with background",
+      "style-2": "Always logo + texts uses color styles",
+      "style-3": "Spin logo + texts with background",
+      "style-4": "Always logo + texts with color only"
+    }
+  },
+  "align5": {
+    "type": "dropdown",
+    "label": "Alignment",
+    "group": "Notification 5",
+    "value": "left",
+    "options": {
+      "left": "Left",
+      "right": "Right",
+      "center": "Center"
+    }
+  },
+  "thirdGroup6-0": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 6"
+  },
+  "thirdGroup6-1": {
+    "type": "hidden",
+    "label": "Notification 6",
+    "group": "Notification 6"
+  },
+  "thirdGroup6-2": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 6"
+  },
+  "logo6": {
+    "type": "image-input",
+    "label": "Logo",
+    "group": "Notification 6"
+  },
+  "topText6": {
+    "type": "text",
+    "label": "Top Text",
+    "group": "Notification 6"
+  },
+  "topTextFont6": {
+    "type": "googleFont",
+    "label": "Top Text Font",
+    "group": "Notification 6"
+  },
+  "lowerText6": {
+    "type": "text",
+    "label": "Lower Text",
+    "group": "Notification 6"
+  },
+  "topTextColor6": {
+    "type": "colorpicker",
+    "label": "Top Text Color",
+    "group": "Notification 6"
+  },
+  "lowerTextFont6": {
+    "type": "googleFont",
+    "label": "Lower Text Font",
+    "group": "Notification 6"
+  },
+  "lowerTextColor6": {
+    "type": "colorpicker",
+    "label": "Lower Text Color",
+    "group": "Notification 6"
+  },
+  "style1color6": {
+    "type": "colorpicker",
+    "label": "Style color 1",
+    "group": "Notification 6",
+    "value": "#D54141"
+  },
+  "style2color6": {
+    "type": "colorpicker",
+    "label": "Style color 2",
+    "group": "Notification 6",
+    "value": "#222222"
+  },
+  "style3color6": {
+    "type": "colorpicker",
+    "label": "Style color 3",
+    "group": "Notification 6",
+    "value": "#D54141"
+  },
+  "style4color6": {
+    "type": "colorpicker",
+    "label": "Style color 4",
+    "group": "Notification 6",
+    "value": "#222222"
+  },
+  "activeTime6": {
+    "type": "number",
+    "label": "Active time (in ms)",
+    "group": "Notification 6",
+    "value": 10000
+  },
+  "animationTime6": {
+    "type": "number",
+    "label": "Animation time (in ms)",
+    "group": "Notification 6",
+    "value": 2000
+  },
+  "waitingTime6": {
+    "type": "number",
+    "label": "Time before next (in ms)",
+    "group": "Notification 6",
+    "value": 60000
+  },
+  "style6": {
+    "type": "dropdown",
+    "label": "Style",
+    "group": "Notification 6",
+    "value": "style-1",
+    "options": {
+      "style-1": "Logo + text after with background",
+      "style-2": "Always logo + texts uses color styles",
+      "style-3": "Spin logo + texts with background",
+      "style-4": "Always logo + texts with color only"
+    }
+  },
+  "align6": {
+    "type": "dropdown",
+    "label": "Alignment",
+    "group": "Notification 6",
+    "value": "left",
+    "options": {
+      "left": "Left",
+      "right": "Right",
+      "center": "Center"
+    }
+  },
+  "thirdGroup7-0": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 7"
+  },
+  "thirdGroup7-1": {
+    "type": "hidden",
+    "label": "Notification 7",
+    "group": "Notification 7"
+  },
+  "thirdGroup7-2": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 7"
+  },
+  "logo7": {
+    "type": "image-input",
+    "label": "Logo",
+    "group": "Notification 7"
+  },
+  "topText7": {
+    "type": "text",
+    "label": "Top Text",
+    "group": "Notification 7"
+  },
+  "topTextFont7": {
+    "type": "googleFont",
+    "label": "Top Text Font",
+    "group": "Notification 7"
+  },
+  "topTextColor7": {
+    "type": "colorpicker",
+    "label": "Top Text Color",
+    "group": "Notification 7"
+  },
+  "lowerText7": {
+    "type": "text",
+    "label": "Lower Text",
+    "group": "Notification 7"
+  },
+  "lowerTextFont7": {
+    "type": "googleFont",
+    "label": "Lower Text Font",
+    "group": "Notification 7"
+  },
+  "lowerTextColor7": {
+    "type": "colorpicker",
+    "label": "Lower Text Color",
+    "group": "Notification 7"
+  },
+  "style1color7": {
+    "type": "colorpicker",
+    "label": "Style color 1",
+    "group": "Notification 7",
+    "value": "#D54141"
+  },
+  "style2color7": {
+    "type": "colorpicker",
+    "label": "Style color 2",
+    "group": "Notification 7",
+    "value": "#222222"
+  },
+  "style3color7": {
+    "type": "colorpicker",
+    "label": "Style color 3",
+    "group": "Notification 7",
+    "value": "#D54141"
+  },
+  "style4color7": {
+    "type": "colorpicker",
+    "label": "Style color 4",
+    "group": "Notification 7",
+    "value": "#222222"
+  },
+  "activeTime7": {
+    "type": "number",
+    "label": "Active time (in ms)",
+    "group": "Notification 7",
+    "value": 10000
+  },
+  "animationTime7": {
+    "type": "number",
+    "label": "Animation time (in ms)",
+    "group": "Notification 7",
+    "value": 2000
+  },
+  "waitingTime7": {
+    "type": "number",
+    "label": "Time before next (in ms)",
+    "group": "Notification 7",
+    "value": 60000
+  },
+  "style7": {
+    "type": "dropdown",
+    "label": "Style",
+    "group": "Notification 7",
+    "value": "style-1",
+    "options": {
+      "style-1": "Logo + text after with background",
+      "style-2": "Always logo + texts uses color styles",
+      "style-3": "Spin logo + texts with background",
+      "style-4": "Always logo + texts with color only"
+    }
+  },
+  "align7": {
+    "type": "dropdown",
+    "label": "Alignment",
+    "group": "Notification 7",
+    "value": "left",
+    "options": {
+      "left": "Left",
+      "right": "Right",
+      "center": "Center"
+    }
+  },
+  "thirdGroup8-0": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 8"
+  },
+  "thirdGroup8-1": {
+    "type": "hidden",
+    "label": "Notification 8",
+    "group": "Notification 8"
+  },
+  "thirdGroup8-2": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 8"
+  },
+  "logo8": {
+    "type": "image-input",
+    "label": "Logo",
+    "group": "Notification 8"
+  },
+  "topText8": {
+    "type": "text",
+    "label": "Top Text",
+    "group": "Notification 8"
+  },
+  "topTextFont8": {
+    "type": "googleFont",
+    "label": "Top Text Font",
+    "group": "Notification 8"
+  },
+  "topTextColor8": {
+    "type": "colorpicker",
+    "label": "Top Text Color",
+    "group": "Notification 8"
+  },
+  "lowerText8": {
+    "type": "text",
+    "label": "Lower Text",
+    "group": "Notification 8"
+  },
+  "lowerTextFont8": {
+    "type": "googleFont",
+    "label": "Lower Text Font",
+    "group": "Notification 8"
+  },
+  "lowerTextColor8": {
+    "type": "colorpicker",
+    "label": "Lower Text Color",
+    "group": "Notification 8"
+  },
+  "style1color8": {
+    "type": "colorpicker",
+    "label": "Style color 1",
+    "group": "Notification 8",
+    "value": "#D54141"
+  },
+  "style2color8": {
+    "type": "colorpicker",
+    "label": "Style color 2",
+    "group": "Notification 8",
+    "value": "#222222"
+  },
+  "style3color8": {
+    "type": "colorpicker",
+    "label": "Style color 3",
+    "group": "Notification 8",
+    "value": "#D54141"
+  },
+  "style4color8": {
+    "type": "colorpicker",
+    "label": "Style color 4",
+    "group": "Notification 8",
+    "value": "#222222"
+  },
+  "activeTime8": {
+    "type": "number",
+    "label": "Active time (in ms)",
+    "group": "Notification 8",
+    "value": 10000
+  },
+  "animationTime8": {
+    "type": "number",
+    "label": "Animation time (in ms)",
+    "group": "Notification 8",
+    "value": 2000
+  },
+  "waitingTime8": {
+    "type": "number",
+    "label": "Time before next (in ms)",
+    "group": "Notification 8",
+    "value": 60000
+  },
+  "style8": {
+    "type": "dropdown",
+    "label": "Style",
+    "group": "Notification 8",
+    "value": "style-1",
+    "options": {
+      "style-1": "Logo + text after with background",
+      "style-2": "Always logo + texts uses color styles",
+      "style-3": "Spin logo + texts with background",
+      "style-4": "Always logo + texts with color only"
+    }
+  },
+  "align8": {
+    "type": "dropdown",
+    "label": "Alignment",
+    "group": "Notification 8",
+    "value": "left",
+    "options": {
+      "left": "Left",
+      "right": "Right",
+      "center": "Center"
+    }
+  },
+  "thirdGroup9-0": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 9"
+  },
+  "thirdGroup9-1": {
+    "type": "hidden",
+    "label": "Notification 9",
+    "group": "Notification 9"
+  },
+  "thirdGroup9-2": {
+    "type": "hidden",
+    "label": "***************************",
+    "group": "Notification 9"
+  },
+  "logo9": {
+    "type": "image-input",
+    "label": "Logo",
+    "group": "Notification 9"
+  },
+  "topText9": {
+    "type": "text",
+    "label": "Top Text",
+    "group": "Notification 9"
+  },
+  "topTextFont9": {
+    "type": "googleFont",
+    "label": "Top Text Font",
+    "group": "Notification 9"
+  },
+  "topTextColor9": {
+    "type": "colorpicker",
+    "label": "Top Text Color",
+    "group": "Notification 9"
+  },
+  "lowerText9": {
+    "type": "text",
+    "label": "Lower Text",
+    "group": "Notification 9"
+  },
+  "lowerTextFont9": {
+    "type": "googleFont",
+    "label": "Lower Text Font",
+    "group": "Notification 9"
+  },
+  "lowerTextColor9": {
+    "type": "colorpicker",
+    "label": "Lower Text Color",
+    "group": "Notification 9"
+  },
+  "style1color9": {
+    "type": "colorpicker",
+    "label": "Style color 1",
+    "group": "Notification 9",
+    "value": "#D54141"
+  },
+  "style2color9": {
+    "type": "colorpicker",
+    "label": "Style color 2",
+    "group": "Notification 9",
+    "value": "#222222"
+  },
+  "style3color9": {
+    "type": "colorpicker",
+    "label": "Style color 3",
+    "group": "Notification 9",
+    "value": "#D54141"
+  },
+  "style4color9": {
+    "type": "colorpicker",
+    "label": "Style color 4",
+    "group": "Notification 9",
+    "value": "#222222"
+  },
+  "activeTime9": {
+    "type": "number",
+    "label": "Active time (in ms)",
+    "group": "Notification 9",
+    "value": 10000
+  },
+  "animationTime9": {
+    "type": "number",
+    "label": "Animation time (in ms)",
+    "group": "Notification 9",
+    "value": 2000
+  },
+  "waitingTime9": {
+    "type": "number",
+    "label": "Time before next (in ms)",
+    "group": "Notification 9",
+    "value": 60000
+  },
+  "style9": {
+    "type": "dropdown",
+    "label": "Style",
+    "group": "Notification 9",
+    "value": "style-1",
+    "options": {
+      "style-1": "Logo + text after with background",
+      "style-2": "Always logo + texts uses color styles",
+      "style-3": "Spin logo + texts with background",
+      "style-4": "Always logo + texts with color only"
+    }
+  },
+  "align9": {
+    "type": "dropdown",
+    "label": "Alignment",
+    "group": "Notification 9",
+    "value": "left",
+    "options": {
+      "left": "Left",
+      "right": "Right",
+      "center": "Center"
+    }
+  }
+}
