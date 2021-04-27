@@ -274,11 +274,14 @@ window.addEventListener('onWidgetLoad', async function (obj) {
     const element = document.getElementById('lower-third-1')
     let cursor = 0
     const notificationNumber = notifications.length
+    let found = false
     while (true) {
+        if (cursor >= notificationNumber && !found) return //avoid infinite loop that breaks everything
         if (cursor >= notificationNumber) cursor = 0
         let notification = notifications[cursor++]
         if (!notification.topText || notification.topText.startsWith('{') || notification.topText === 'undefined') return
         element.classList.remove("hide-anim")
+        found = true
         globalSettings(root, element, notification)
         specificSettings(root, element, notification)
         await startAnimation(root, element, notification)
