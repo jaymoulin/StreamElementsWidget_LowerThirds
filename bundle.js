@@ -1,7 +1,7 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 const sleep = require('./tools').sleep
 
-const alt_1_size = 1.9,
+const alt_1_size = 1.5,
     alt_1_margin_h = 4,
     alt_1_margin_v = 4,
     alt_1_background_switch = true,
@@ -12,9 +12,9 @@ const alt_1_size = 1.9,
     alt_1_info_transform = 'normal',
     alt_1_info_weight = 'lighter',
     alt_1_line_spacing = 0,
-    alt_1_logo_size = 3.5,
+    alt_1_logo_size = 2.5,
     alt_1_logo_switch = true,
-    alt_1_name_size = 1.9,
+    alt_1_name_size = 1.5,
     alt_1_name_transform = 'normal',
     alt_1_name_weight = 'bold',
     alt_1_shadow_amount = 0.5,
@@ -280,7 +280,7 @@ window.addEventListener('onWidgetLoad', async function (obj) {
         if (cursor >= notificationNumber && !found) return //avoid infinite loop that breaks everything
         if (cursor >= notificationNumber) cursor = 0
         let notification = notifications[cursor++]
-        if (!notification.topText || notification.topText.startsWith('{') || notification.topText === 'undefined') return
+        if (!notification.topText || notification.topText.startsWith('{') || notification.topText === 'undefined') continue
         element.classList.remove("hide-anim")
         found = true
         globalSettings(root, element, notification)
