@@ -22,6 +22,7 @@ const alt_1_size = 1.5,
 
 let notifications = [
     {
+        isActive: "{active1}" === "true",
         logo: "{logo1}",
         topText: "{topText1}",
         lowerText: "{lowerText1}",
@@ -39,6 +40,7 @@ let notifications = [
         style: "{style1}",
         alignment: "{align1}",
     }, {
+        isActive: "{active2}" === "true",
         logo: "{logo2}",
         topText: "{topText2}",
         lowerText: "{lowerText2}",
@@ -56,6 +58,7 @@ let notifications = [
         style: "{style2}",
         alignment: "{align2}",
     }, {
+        isActive: "{active3}" === "true",
         logo: "{logo3}",
         topText: "{topText3}",
         lowerText: "{lowerText3}",
@@ -73,6 +76,7 @@ let notifications = [
         style: "{style3}",
         alignment: "{align3}",
     }, {
+        isActive: "{active4}" === "true",
         logo: "{logo4}",
         topText: "{topText4}",
         lowerText: "{lowerText4}",
@@ -90,6 +94,7 @@ let notifications = [
         style: "{style4}",
         alignment: "{align4}",
     }, {
+        isActive: "{active5}" === "true",
         logo: "{logo5}",
         topText: "{topText5}",
         lowerText: "{lowerText5}",
@@ -107,6 +112,7 @@ let notifications = [
         style: "{style5}",
         alignment: "{align5}",
     }, {
+        isActive: "{active6}" === "true",
         logo: "{logo6}",
         topText: "{topText6}",
         lowerText: "{lowerText6}",
@@ -124,6 +130,7 @@ let notifications = [
         style: "{style6}",
         alignment: "{align6}",
     }, {
+        isActive: "{active7}" === "true",
         logo: "{logo7}",
         topText: "{topText7}",
         lowerText: "{lowerText7}",
@@ -141,6 +148,7 @@ let notifications = [
         style: "{style7}",
         alignment: "{align7}",
     }, {
+        isActive: "{active8}" === "true",
         logo: "{logo8}",
         topText: "{topText8}",
         lowerText: "{lowerText8}",
@@ -158,6 +166,7 @@ let notifications = [
         style: "{style8}",
         alignment: "{align8}",
     }, {
+        isActive: "{active9}" === "true",
         logo: "{logo9}",
         topText: "{topText9}",
         lowerText: "{lowerText9}",
@@ -279,7 +288,7 @@ window.addEventListener('onWidgetLoad', async function (obj) {
         if (cursor >= notificationNumber && !found) return //avoid infinite loop that breaks everything
         if (cursor >= notificationNumber) cursor = 0
         let notification = notifications[cursor++]
-        if (!notification.topText || notification.topText.startsWith('{') || notification.topText === 'undefined') continue
+        if (!notification.isActive) continue
         element.classList.remove("hide-anim")
         found = true
         globalSettings(root, element, notification)

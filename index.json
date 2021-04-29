@@ -4,10 +4,11 @@
     "label": "***************************",
     "group": "Notification 1"
   },
-  "thirdGroup1-1": {
-    "type": "hidden",
+  "active1": {
+    "type": "checkbox",
     "label": "Notification 1",
-    "group": "Notification 1"
+    "group": "Notification 1",
+    "value": true
   },
   "thirdGroup1-2": {
     "type": "hidden",
@@ -119,10 +120,11 @@
     "label": "***************************",
     "group": "Notification 2"
   },
-  "thirdGroup2-1": {
-    "type": "hidden",
+  "active2": {
+    "type": "checkbox",
     "label": "Notification 2",
-    "group": "Notification 2"
+    "group": "Notification 2",
+    "value": true
   },
   "thirdGroup2-2": {
     "type": "hidden",
@@ -234,10 +236,11 @@
     "label": "***************************",
     "group": "Notification 3"
   },
-  "thirdGroup3-1": {
-    "type": "hidden",
+  "active3": {
+    "type": "checkbox",
     "label": "Notification 3",
-    "group": "Notification 3"
+    "group": "Notification 3",
+    "value": true
   },
   "thirdGroup3-2": {
     "type": "hidden",
@@ -349,10 +352,11 @@
     "label": "***************************",
     "group": "Notification 4"
   },
-  "thirdGroup4-1": {
-    "type": "hidden",
+  "active4": {
+    "type": "checkbox",
     "label": "Notification 4",
-    "group": "Notification 4"
+    "group": "Notification 4",
+    "value": true
   },
   "thirdGroup4-2": {
     "type": "hidden",
@@ -464,10 +468,11 @@
     "label": "***************************",
     "group": "Notification 5"
   },
-  "thirdGroup5-1": {
-    "type": "hidden",
+  "active5": {
+    "type": "checkbox",
     "label": "Notification 5",
-    "group": "Notification 5"
+    "group": "Notification 5",
+    "value": true
   },
   "thirdGroup5-2": {
     "type": "hidden",
@@ -579,10 +584,11 @@
     "label": "***************************",
     "group": "Notification 6"
   },
-  "thirdGroup6-1": {
-    "type": "hidden",
+  "active6": {
+    "type": "checkbox",
     "label": "Notification 6",
-    "group": "Notification 6"
+    "group": "Notification 6",
+    "value": true
   },
   "thirdGroup6-2": {
     "type": "hidden",
@@ -694,10 +700,11 @@
     "label": "***************************",
     "group": "Notification 7"
   },
-  "thirdGroup7-1": {
-    "type": "hidden",
+  "active7": {
+    "type": "checkbox",
     "label": "Notification 7",
-    "group": "Notification 7"
+    "group": "Notification 7",
+    "value": true
   },
   "thirdGroup7-2": {
     "type": "hidden",
@@ -809,10 +816,11 @@
     "label": "***************************",
     "group": "Notification 8"
   },
-  "thirdGroup8-1": {
-    "type": "hidden",
+  "active8": {
+    "type": "checkbox",
     "label": "Notification 8",
-    "group": "Notification 8"
+    "group": "Notification 8",
+    "value": true
   },
   "thirdGroup8-2": {
     "type": "hidden",
@@ -924,10 +932,11 @@
     "label": "***************************",
     "group": "Notification 9"
   },
-  "thirdGroup9-1": {
-    "type": "hidden",
+  "active9": {
+    "type": "checkbox",
     "label": "Notification 9",
-    "group": "Notification 9"
+    "group": "Notification 9",
+    "value": true
   },
   "thirdGroup9-2": {
     "type": "hidden",
